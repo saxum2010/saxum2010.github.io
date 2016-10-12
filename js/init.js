@@ -148,7 +148,18 @@
       var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
                '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
 
-      $.ajax({
+      emailjs.send("saxum2010","template_XQ2h8zA3",{name: contactName, notes: contactMessage}).then(
+        function(response) {
+          console.log("SUCCESS", response);
+          return true;
+        }, 
+        function(error) {
+          console.log("FAILED", error);
+          return false;
+        }
+      );
+
+/*      $.ajax({
 
 	      type: "POST",
 	      url: "inc/sendEmail.php",
@@ -171,7 +182,13 @@
 
 	      }
 
-      });
+      });*/
+
+
+
+
+
+
       return false;
    });
 
