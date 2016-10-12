@@ -422,7 +422,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .perc90 {
-    width: 100%;
+    width: 90%;
     -moz-animation: perc90 2s ease;
     -webkit-animation: perc90 2s ease;
 }
@@ -436,7 +436,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .perc80 {
-    width: 100%;
+    width: 80%;
     -moz-animation: perc80 2s ease;
     -webkit-animation: perc80 2s ease;
 }
@@ -450,7 +450,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .perc70 {
-    width: 100%;
+    width: 70%;
     -moz-animation: perc70 2s ease;
     -webkit-animation: perc70 2s ease;
 }
@@ -459,6 +459,32 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 70%;  }
 }
 @-webkit-keyframes perc70 {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+.perc60 {
+    width: 60%;
+    -moz-animation: perc60 2s ease;
+    -webkit-animation: perc60 2s ease;
+}
+@-moz-keyframes perc60 {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes perc60 {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+.perc50 {
+    width: 50%;
+    -moz-animation: perc50 2s ease;
+    -webkit-animation: perc50 2s ease;
+}
+@-moz-keyframes perc50 {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes perc50 {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
