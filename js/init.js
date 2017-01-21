@@ -145,50 +145,21 @@
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
 
-      var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
-               '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
-
-      emailjs.send("saxum2010","template_XQ2h8zA3",{name: contactName, notes: contactMessage}).then(
-        function(response) {
-          console.log("SUCCESS", response);
-          return true;
-        }, 
-        function(error) {
-          console.log("FAILED", error);
-          return false;
-        }
-      );
-
-/*      $.ajax({
-
-	      type: "POST",
-	      url: "inc/sendEmail.php",
-	      data: data,
-	      success: function(msg) {
-
-            // Message was sent
-            if (msg == 'OK') {
-               $('#image-loader').fadeOut();
-               $('#message-warning').hide();
-               $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
-            }
-            // There was an error
-            else {
-               $('#image-loader').fadeOut();
-               $('#message-warning').html(msg);
-	            $('#message-warning').fadeIn();
-            }
-
-	      }
-
-      });*/
-
-
-
-
-
-
+      if(Email.send(contactEmail,
+      "saxum2010@gmail.com",
+      contactSubject,
+      contactName + ' : ' + contactMessage,
+      {token: "1cc827f2-4ef2-4dfe-ae8c-c8071c76e366"})){
+        console.log('send OK');
+      $('#image-loader').fadeOut();
+      $('#message-warning').hide();
+      $('#contactForm').fadeOut();
+      $('#message-success').fadeIn();   
+      }else{
+        console.log('send false');
+        $('#image-loader').fadeOut();
+        $('#message-warning').html(msg).fadeIn();
+      }
       return false;
    });
 
