@@ -151,14 +151,14 @@
       contactName + ' : ' + contactMessage,
       {token: "1cc827f2-4ef2-4dfe-ae8c-c8071c76e366"})){
         console.log('send OK');
-      $('#image-loader').fadeOut();
+/*      $('#image-loader').fadeOut();
       $('#message-warning').hide();
       $('#contactForm').fadeOut();
-      $('#message-success').fadeIn();   
+      $('#message-success').fadeIn(); */  
       }else{
         console.log('send false');
-        $('#image-loader').fadeOut();
-        $('#message-warning').html(msg).fadeIn();
+/*        $('#image-loader').fadeOut();
+        $('#message-warning').html(msg).fadeIn();*/
       }
       return false;
    });
