@@ -137,39 +137,20 @@
 ------------------------------------------------------*/
 
    $('form#contactForm button.submit').click(function() {
-
       $('#image-loader').fadeIn();
-
-      var contactName = $('#contactForm #contactName').val();
-      var contactEmail = $('#contactForm #contactEmail').val();
-      var contactSubject = $('#contactForm #contactSubject').val();
-      var contactMessage = $('#contactForm #contactMessage').val();
-
-      if(Email.send(contactEmail,
-      "saxum2010@gmail.com",
-      contactSubject,
-      contactName + ' : ' + contactMessage,
-      {token: "1cc827f2-4ef2-4dfe-ae8c-c8071c76e366"})){
-        console.log('send OK');
-/*      $('#image-loader').fadeOut();
-      $('#message-warning').hide();
-      $('#contactForm').fadeOut();
-      $('#message-success').fadeIn(); */  
-      }else{
-        console.log('send false');
-/*        $('#image-loader').fadeOut();
-        $('#message-warning').html(msg).fadeIn();*/
-      }
+      var contactName = $('#contactForm #contactName').val(),
+          contactEmail = $('#contactForm #contactEmail').val(),
+          contactMessage = $('#contactForm #contactMessage').val(),
+          data = {"access_token": "4kde7are8vma6n1688syi968"};
+          data['subject'] = 'Feedback form saxum2010.github.io';
+          data['text'] = contactEmail+'\r\n'+contactName+'\r\n'+contactMessage;
+          $.post('https://postmail.invotes.com/send',
+              data,
+              function(){
+                alert('Thank you. I will soon contact you');
+                location.reload();
+              }
+          );
       return false;
    });
-
-
 });
-
-
-
-
-
-
-
-
