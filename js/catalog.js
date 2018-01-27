@@ -44,10 +44,9 @@ var catalog = [
   {key:"42", title:'www.inguzoil.com.ua', desc:'Сайт компании ЧП "Ингус Ойл"', link:'http://www.inguzoil.com.ua', img:'inguzoil.jpg', tags:'Drupal, PHP, HTML', full_title:'www.inguzoil.com.ua', full_desc:'Сайт компании ЧП "Ингус Ойл"'},
   {key:"43", title:'www.powerquote.se', desc:'Powerquote this is great application for quotes & agreements.', link:'https://www.powerquote.se/', img:'powerquote.jpg', tags:'WA-framework, PHP, HTML', full_title:'www.powerquote.se', full_desc:'Powerquote this is great application for quotes & agreements. Save time and money, improve your quotes & agreements, template-based cloud service, digital sign-up and real-time tracking'},
   {key:"44", title:'caretia.se', desc:'Site for Sweden cleaning company', link:'https://caretia.se/', img:'caretia.jpg', tags:'WA-framework, PHP, HTML', full_title:'caretia', full_desc:'Site for Sweden cleaning company'},
-  {key:"45", title:'caretia.se', desc:'Site for Sweden cleaning company', link:'https://caretia.se/', img:'caretia.jpg', tags:'WA-framework, PHP, HTML', full_title:'caretia', full_desc:'Site for Sweden cleaning company'},
-  {key:"46", title:'grogrund.westart.se', desc:'Site for Sweden company', link:'https://grogrund.westart.se', img:'grogrund.jpg', tags:'WA-framework, PHP, HTML', full_title:'grogrund', full_desc:'Site for Sweden company'},
-  {key:"47", title:'helaform.westart.se', desc:'Site for Sweden company', link:'https://helaform.westart.se/', img:'helaform.jpg', tags:'WA-framework, PHP, HTML', full_title:'helaform', full_desc:'Site for Sweden company'},
-  {key:"48", title:'ramenvalves.com', desc:'Site for Sweden valve repair services offered', link:'http://ramenvalves.com/', img:'ramen.jpg', tags:'Wordpress, PHP, HTML', full_title:'ramen', full_desc:'Site for Sweden valve repair services offered'},
+  {key:"45", title:'grogrund.westart.se', desc:'Site for Sweden company', link:'https://grogrund.westart.se', img:'grogrund.jpg', tags:'WA-framework, PHP, HTML', full_title:'grogrund', full_desc:'Site for Sweden company'},
+  {key:"46", title:'helaform.westart.se', desc:'Site for Sweden company', link:'https://helaform.westart.se/', img:'helaform.jpg', tags:'WA-framework, PHP, HTML', full_title:'helaform', full_desc:'Site for Sweden company'},
+  {key:"47", title:'ramenvalves.com', desc:'Site for Sweden valve repair services offered', link:'http://ramenvalves.com/', img:'ramen.jpg', tags:'Wordpress, PHP, HTML', full_title:'ramen', full_desc:'Site for Sweden valve repair services offered'},
 ];
 
 function shuffleArray(array) {
