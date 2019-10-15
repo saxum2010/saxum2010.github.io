@@ -1,7 +1,7 @@
 var more=1;
 var catalog = [
-  {key:"1", title:'citrus.ua', desc:'Цитрус', img:'citrus.jpg', link:'http://www.citrus.ua', tags:'Bitrix, PHP, CentOs(administarator)', full_title:'citrus.ua', full_desc:'"Citrus"​ - the first Ukrainian company specialized corporate chains on gadgets and accessories, established in 2005.'},
-  {key:"2", title:'www.fintotalizator.com', desc:'Финансовый тотализатор', link:'http://www.fintotalizator.com', img:'fintotalzator.jpg', tags:'PHP, HTML', full_title:'www.fintotalizator.com', full_desc:'Web - сайт финансового тотализатора.'},
+  {key:"1", title:'citrus.ua', desc:'Citrus', img:'citrus.jpg', link:'https://www.citrus.ua', tags:'Bitrix, PHP, CentOs(administarator)', full_title:'citrus.ua', full_desc:'"Citrus"​ - the first Ukrainian company specialized corporate chains on gadgets and accessories, established in 2005.'},
+  {key:"2", title:'www.fintotalizator.com', desc:'Financial tote', link:'http://www.fintotalizator.com', img:'fintotalzator.jpg', tags:'PHP, HTML', full_title:'www.fintotalizator.com', full_desc:'Web site for financial tote.'},
   {key:"3", title:'www.usdtoto.com', desc:'USDtoto', link:'http://www.usdtoto.com', img:'usdtoto.jpg', tags:'PHP, HTML', full_title:'www.usdtoto.com', full_desc:'Партнерский web - сайт сайт финансового тотализатора.'},
   {key:"4", title:'fedorchuk.com.ua', desc:'Юрист Федорчук', link:'http://www.fedorchuk.com.ua', img:'fedorchuk.jpg', tags:'Drupal, PHP, HTML', full_title:'www.usdtoto.com', full_desc:'Web - сайт юриста'},
   {key:"5", title:'cigol.com.ua', desc:'Сигол строительная компания', link:'http://www.cigol.com.ua', img:'sigol.jpg', tags:'Drupal, PHP, HTML', full_title:'www.cigol.com.ua', full_desc:'Web - сайт строительной компании.'},
@@ -44,9 +44,13 @@ var catalog = [
   {key:"42", title:'www.inguzoil.com.ua', desc:'Сайт компании ЧП "Ингус Ойл"', link:'http://www.inguzoil.com.ua', img:'inguzoil.jpg', tags:'Drupal, PHP, HTML', full_title:'www.inguzoil.com.ua', full_desc:'Сайт компании ЧП "Ингус Ойл"'},
   {key:"43", title:'www.powerquote.se', desc:'Powerquote this is great application for quotes & agreements.', link:'https://www.powerquote.se/', img:'powerquote.jpg', tags:'WA-framework, PHP, HTML', full_title:'www.powerquote.se', full_desc:'Powerquote this is great application for quotes & agreements. Save time and money, improve your quotes & agreements, template-based cloud service, digital sign-up and real-time tracking'},
   {key:"44", title:'caretia.se', desc:'Site for Sweden cleaning company', link:'https://caretia.se/', img:'caretia.jpg', tags:'WA-framework, PHP, HTML', full_title:'caretia', full_desc:'Site for Sweden cleaning company'},
-  {key:"45", title:'grogrund.westart.se', desc:'Site for Sweden company', link:'https://grogrund.westart.se', img:'grogrund.jpg', tags:'WA-framework, PHP, HTML', full_title:'grogrund', full_desc:'Site for Sweden company'},
-  {key:"46", title:'helaform.westart.se', desc:'Site for Sweden company', link:'https://helaform.westart.se/', img:'helaform.jpg', tags:'WA-framework, PHP, HTML', full_title:'helaform', full_desc:'Site for Sweden company'},
+  {key:"45", title:'Ggarbetsmiljo', desc:'Site for Sweden company', link:'https://system.ggarbetsmiljo.se', img:'grogrund.jpg', tags:'WA-framework, PHP, HTML', full_title:'grogrund', full_desc:'Site for Sweden company'},
+  {key:"46", title:'Hela', desc:'Site for Sweden company', link:'https://system.hela.se/', img:'helaform.jpg', tags:'WA-framework, PHP, HTML', full_title:'hela', full_desc:'Site for Sweden company'},
   {key:"47", title:'ramenvalves.com', desc:'Site for Sweden valve repair services offered', link:'http://ramenvalves.com/', img:'ramen.jpg', tags:'Wordpress, PHP, HTML', full_title:'ramen', full_desc:'Site for Sweden valve repair services offered'},
+  {key:"48", title:'ZmartBag', desc:'Shopping just got smarter. Save products from your favorite online shops.', link:'https://zmartbag.com', img:'zmartbag.png', tags:'WA-framework, PHP, HTML', full_title:'ZmartBag', full_desc:'Shopping just got smarter. Save products from your favorite online shops.'},
+  {key:"49", title:'lattviktsmotor', desc:'Lättviktsmotor | Fritid, skog och trädgård, online och i butik', link:'https://www.lattviktsmotor.se/', img:'lattviktsmotor.png', tags:'WA-framework, PHP, HTML', full_title:'ZmartBag', full_desc:'Lättviktsmotor | Fritid, skog och trädgård, online och i butik'},
+  {key:"50", title:'Enklare', desc:'Låna pengar online med Enklare', link:'https://enklare.se', img:'enklare.png', tags:'Laravel, Vuejs', full_title:'Enklare', full_desc:'Låna pengar online med Enklare'},
+  {key:"51", title:'Sleepeasy', desc:'Sleepeasy Home Healthcare Online Shop', link:'https://www.shop.sleepeasy.philips.com.au', img:'sleepeasy.png', tags:'Magento', full_title:'Sleepeasy', full_desc:'Sleepeasy Home Healthcare Online Shop'},
 ];
 
 function shuffleArray(array) {
