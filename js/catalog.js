@@ -51,6 +51,8 @@ var catalog = [
   {key:"49", title:'lattviktsmotor', desc:'Lättviktsmotor | Fritid, skog och trädgård, online och i butik', link:'https://www.lattviktsmotor.se/', img:'lattviktsmotor.png', tags:'WA-framework, PHP, HTML', full_title:'ZmartBag', full_desc:'Lättviktsmotor | Fritid, skog och trädgård, online och i butik'},
   {key:"50", title:'Enklare', desc:'Låna pengar online med Enklare', link:'https://enklare.se', img:'enklare.png', tags:'Laravel, Vuejs', full_title:'Enklare', full_desc:'Låna pengar online med Enklare'},
   {key:"51", title:'Sleepeasy', desc:'Sleepeasy Home Healthcare Online Shop', link:'https://www.shop.sleepeasy.philips.com.au', img:'sleepeasy.png', tags:'Magento', full_title:'Sleepeasy', full_desc:'Sleepeasy Home Healthcare Online Shop'},
+  {key:"52", title:'Oral-B Professional', desc:'Oral-B Professional | Show', link:'https://survey.oralbpro.eu/', img:'oralbpro.png', tags:'WA-framework, PHP, Vuejs', full_title:'Oral-B Professional', full_desc:'Oral-B Professional | Show'},
+  {key:"53", title:'knacka.liberalerna.se', desc:'Map prototype for liberalerna', link:'https://knacka.liberalerna.se/', img:'knacka.png', tags:'WA-framework, PHP, HTML', full_title:'Map prototype for liberalerna', full_desc:'Map prototype for liberalerna'},
 ];
 
 function shuffleArray(array) {
