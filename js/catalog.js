@@ -53,6 +53,8 @@ var catalog = [
   {key:"51", title:'Sleepeasy', desc:'Sleepeasy Home Healthcare Online Shop', link:'https://www.shop.sleepeasy.philips.com.au', img:'sleepeasy.png', tags:'Magento', full_title:'Sleepeasy', full_desc:'Sleepeasy Home Healthcare Online Shop'},
   {key:"52", title:'Oral-B Professional', desc:'Oral-B Professional | Show', link:'https://survey.oralbpro.eu/', img:'oralbpro.png', tags:'WA-framework, PHP, Vuejs', full_title:'Oral-B Professional', full_desc:'Oral-B Professional | Show'},
   {key:"53", title:'knacka.liberalerna.se', desc:'Map prototype for liberalerna', link:'https://knacka.liberalerna.se/', img:'knacka.png', tags:'WA-framework, PHP, HTML', full_title:'Map prototype for liberalerna', full_desc:'Map prototype for liberalerna'},
+  {key:"54", title:'Eckerö Linjen', desc:'Eckerö Linjen tickets', link:'https://www.eckerolinjen.se', img:'eckero.png', tags:'Wordpress, PHP, HTML', full_title:'Eckerö Linjen tickets', full_desc:'Eckerö Linjen tickets'},
+  {key:"55", title:'foretagsgalan', desc:'Företagsgalan - Roslagens företagsgala', link:'https://www.foretagsgalan.se', img:'foretagsgalan.png', tags:'Wordpress, PHP, HTML', full_title:'Företagsgalan - Roslagens företagsgala', full_desc:'Företagsgalan - Roslagens företagsgala'},
 ];
 
 function shuffleArray(array) {
@@ -68,7 +70,7 @@ function shuffleArray(array) {
 function drawItems(catalog){
   var cat_items = modal_item = '';
   for(i in catalog){
-      cat_items +='<div class="columns portfolio-item"><div class="item-wrap"><a href="#modal-'+catalog[i]['key']+'" title=""><img alt="" src="images/portfolio/'+catalog[i]['img']+'"><div class="overlay"><div class="portfolio-item-meta"><h5>'+catalog[i]['title']+'</h5><p>'+catalog[i]['desc']+'</p></div></div><div class="link-icon"><i class="icon-plus"></i></div></a></div></div>';
+      cat_items +='<div class="columns portfolio-item"><div class="item-wrap"><a href="#modal-'+catalog[i]['key']+'" title=""><img alt="" src="images/portfolio/'+catalog[i]['img']+'"><div class="overlay"><div class="portfolio-item-meta"><h5>'+catalog[i]['title']+'</h5><p>'+catalog[i]['tags']+'</p><p>'+catalog[i]['desc']+'</p></div></div><div class="link-icon"><i class="icon-plus"></i></div></a></div></div>';
       modal_item +='<div id="modal-'+catalog[i]['key']+'" class="popup-modal mfp-hide"> <img class="scale-with-grid" src="images/portfolio/modals/'+catalog[i]['img']+'" alt="" /><div class="description-box"> <h4>'+catalog[i]['full_title']+'</h4> <p>'+catalog[i]['full_desc']+'</p> <span class="categories"><i class="fa fa-tag"></i>'+catalog[i]['tags']+'</span></div><div class="link-box"><a target="_blank" href="'+catalog[i]['link']+'">Live</a><a class="popup-modal-dismiss">Close</a></div></div>';
   }
 
@@ -89,8 +91,7 @@ drawItems(new_array[0]);
 
 $('body').on('click', '.load_more', function(e) {
   e.preventDefault();
-  drawItems(new_array[more]);
-  more++;
+  drawItems(new_array[more++]);
   if(more==new_array.length){
     $('.load_more').hide();
   }
