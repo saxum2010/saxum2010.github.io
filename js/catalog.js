@@ -55,6 +55,9 @@ var catalog = [
   {key:"53", title:'knacka.liberalerna.se', desc:'Map prototype for liberalerna', link:'https://knacka.liberalerna.se/', img:'knacka.png', tags:'WA-framework, PHP, HTML', full_title:'Map prototype for liberalerna', full_desc:'Map prototype for liberalerna'},
   {key:"54", title:'Eckerö Linjen', desc:'Eckerö Linjen tickets', link:'https://www.eckerolinjen.se', img:'eckero.png', tags:'Wordpress, PHP, HTML', full_title:'Eckerö Linjen tickets', full_desc:'Eckerö Linjen tickets'},
   {key:"55", title:'foretagsgalan', desc:'Företagsgalan - Roslagens företagsgala', link:'https://www.foretagsgalan.se', img:'foretagsgalan.png', tags:'Wordpress, PHP, HTML', full_title:'Företagsgalan - Roslagens företagsgala', full_desc:'Företagsgalan - Roslagens företagsgala'},
+  {key:"56", title:'L.A.P.T.I', desc:'L.A.P.T.I - fashionable and comfortable shoes for women, men, children shoes and accessories', link:'https://lapti.ua/', img:'lapti.png', tags:'Bitrix, PHP, HTML', full_title:'L.A.P.T.I', full_desc:'L.A.P.T.I - fashionable and comfortable shoes for women, men, children shoes and accessories'},
+  {key:"57", title:'VRC Car rental', desc:'VRC Car hire | rental and car hire in Odessa', link:'https://vrc.com.ua/', img:'vrc.png', tags:'WP, HTML', full_title:'VRC Car rental', full_desc:'VRC Car hire | rental and car hire in Odessa'},
+  {key:"58", title:'CreativeMama', desc:'Online shop for pregnant and lactating mothers CreativeMama in Ukraine', link:'https://creativemama.com.ua/', img:'creativemama.png', tags:'WP, HTML', full_title:'CreativeMama', full_desc:'Online shop for pregnant and lactating mothers CreativeMama in Ukraine'},
 ];
 
 function shuffleArray(array) {
