@@ -346,7 +346,8 @@ Web programmer - is the person who knows everything about the few and a bit of e
             </ul>
 
             <ul class="copyright">
-               <li>&copy; Copyright 2019</li>
+               <li>&copy; Copyright <span id="year"></span></li>
+		<script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
             </ul>
 
          </div>
