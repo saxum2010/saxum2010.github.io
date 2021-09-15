@@ -58,7 +58,7 @@
          <div class="banner-text">
             <h1 class="responsive-headline">I'm Full stack web developer</h1>
             <h3><span>I will help you creating awesome website of any complexity using modern technology:
-            Laravel, Yii/Yii2 , CMS: Bitrix, Opencart, Drupal, Ubercart, Joomla, VirtueMart, Wordpress, Magento, Imagecms, Cscart, PrestaShop, SocialEngine</span>
+            Laravel, Yii/Yii2 , CMS: Magento, Shopware, Lightspeed, Bitrix, Opencart, Drupal, Ubercart, Joomla, VirtueMart, Wordpress,  Imagecms, Cscart, PrestaShop, SocialEngine</span>
          </h3>
             <hr />
             <ul class="social">
@@ -92,7 +92,9 @@
 
             <h2>About Me</h2>
 
-            <p>I created web projects more than 10 years. I can create web project any difficulty</p>
+            <p>I created web projects more than <span id="exyears"></span> years. I can create web project any difficulty</p>
+	    <script>document.getElementById("exyears").innerHTML = (new Date().getFullYear() - 2009);</script>
+		 
 
             <div class="row">
 
